@@ -15,7 +15,7 @@ docker-compose run --rm app sh -c "python manage.py startapp appname"
 **Start up the django app**
 
 ```bash
-docker-compose run app sh -c "python manage.py startserver"
+docker-compose up
 ```
 
 **Create a new migration**
